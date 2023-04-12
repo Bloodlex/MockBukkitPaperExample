@@ -1,4 +1,4 @@
-package pl.ktmc.untitled;
+package pl.ktmc.mockbukkitpaperexample;
 
 import be.seeseemelk.mockbukkit.MockBukkit;
 import be.seeseemelk.mockbukkit.ServerMock;
@@ -6,10 +6,10 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class TestPluginTest {
+class MockBukkitPaperExampleTest {
 
     private ServerMock server;
-    private TestPlugin plugin;
+    private MockBukkitPaperExample plugin;
 
     @Test
     void test() {
@@ -24,6 +24,6 @@ class TestPluginTest {
     @BeforeEach
     public void setUp() {
         server = MockBukkit.mock();
-        plugin = MockBukkit.load(TestPlugin.class);
+        plugin = MockBukkit.load(MockBukkitPaperExample.class);
     }
 }

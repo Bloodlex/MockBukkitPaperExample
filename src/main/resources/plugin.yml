@@ -1,4 +1,4 @@
-name: TestPlugin
+name: MockBukkitPaperExample
 version: '${project.version}'
-main: pl.ktmc.untitled.TestPlugin
+main: pl.ktmc.mockbukkitpaperexample.MockBukkitPaperExample
 api-version: 1.19
